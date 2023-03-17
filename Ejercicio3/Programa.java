@@ -35,7 +35,6 @@ class Persona implements IPersona {
 }
 interface IEmpleado {
     String getPosicion();
-    String getApellido();
     double getSueldo();
 }
 
