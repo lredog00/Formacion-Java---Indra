@@ -1,0 +1,14 @@
+Un programa que le pregunte al usuario como se siente hoy, las opciones que debe tenr son las siguientes:
+1. Enojado - Haz yoga
+2. Triste - Vete a terapia o de cañas
+3. Feliz - sigue asi
+4. Preocupado - despreocupate
+5. Aburrido - te cuento un chiste
+6. Somnoliento - tomate un buen cafe
+
+estructura del programa:
+El programa informa fecha y hora de hoy mas un mensaje de bienvenida
+El programa pregunta al usuario como se llama
+El programa debe de tener una clase Persona que pase atributos a la clase principal
+El programa debe contar con al menos una interfaz que implemente todos los metodos de estado de animo
+Para el estado de animo Aburrido debemos contar un chiste aleatorio aleatorio y debemos almacenar al menos 3 chistes en nuestro programa
