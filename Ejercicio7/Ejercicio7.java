@@ -52,7 +52,7 @@ public class Ejercicio7 {
 			System.out.println("USER_NAME: "+key+" USER_ID: "+val);
 			
 		}
-		
+		sc.close();
 		
 		
 	}
