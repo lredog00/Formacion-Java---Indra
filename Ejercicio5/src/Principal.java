@@ -17,7 +17,7 @@ public class Principal {
         System.out.println("¿Cual es tu nombre?");
         String nombre = sc.next();
         
-        System.out.println("¿Como estas? "
+        System.out.println("¿Como estas? \n"
         		+ "1. Enojado \n"
         		+ "2. Triste \n"
         		+ "3. Feliz \n"
