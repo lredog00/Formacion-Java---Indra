@@ -30,7 +30,17 @@ public class APIRest {
 				
 				System.out.println(informacion);
 				
+				String salidaAPI = informacion.toString();
 				
+				JSONObject json = new JSONObject(salidaAPI);
+				System.out.println("Joke");
+				if(json.get("type").equals("single")) {
+					System.out.println(json.get("joke"));
+				}else {
+					
+					System.out.println(json.get("setup"));
+					System.out.println(json.get("delivery"));
+				}
 			}
 			
 		} catch (MalformedURLException e) {
