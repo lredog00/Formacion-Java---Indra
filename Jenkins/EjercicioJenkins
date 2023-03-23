@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Paso 1') {
+            steps {
+                echo 'Calculadora'
+                script{
+                    def num1 = 4
+                    def num2 = 2
+                    
+                    def suma = num1 + num2
+                    println "La suma de $num1 y $num2 es $suma"
+                   
+                    
+                    def resta = num1 - num2
+                    println "La resta de $num1 y $num2 es $resta"
+                    
+                    def div = num1 / num2
+                    println "La division de $num1 y $num2 es $div"
+                    
+                    def mult = num1 * num2
+                    println "La multiplicacion de $num1 y $num2 es $mult"
+                    
+                }
+                
+            }
+        }
+        
+    }
+}
