@@ -23,6 +23,9 @@ pipeline {
                     def mult = num1 * num2
                     println "La multiplicacion de $num1 y $num2 es $mult"
                     
+                    def data = readFile(file: "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Ejercicio15\\salida.txt")  
+                    
+                    println "$data"
                     
                     
                     
