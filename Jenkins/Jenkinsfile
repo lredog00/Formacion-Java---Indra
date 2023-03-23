@@ -11,20 +11,20 @@ pipeline {
                     
                     def suma = num1 + num2
                     println "La suma de $num1 y $num2 es $suma"
-                   
-                    writeFile(file: "salida.txt", text: suma)
-                                        
+                                                                          
                     def resta = num1 - num2
                     println "La resta de $num1 y $num2 es $resta"
-                    writeFile(file: "salida.txt", text: resta)
+                    
                     
                     def div = num1 / num2
                     println "La division de $num1 y $num2 es $div"
-                    writeFile(file: "salida.txt", text: div)
+                   
                     
                     def mult = num1 * num2
                     println "La multiplicacion de $num1 y $num2 es $mult"
-                    writeFile(file: "salida.txt", text: mult)
+                    
+                    def contenido = "Suma: $suma, Resta: $resta, Division: $div, Multiplicacion: $mult"
+                    writeFile(file: "salida.txt", text: contenido)
                     
                     
                     
