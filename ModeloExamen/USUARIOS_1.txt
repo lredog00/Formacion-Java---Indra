@@ -1,0 +1,4 @@
+Nombre/Fecha de Nacimiento/Fecha de Registr/Ultima Fecha de Login/Cantidad de Compras/Pais
+Gustavo/1991/06/04/2022/09/16/2022/09/16/10/ARGENTINA
+Carlos/1999/05/05/2020/10/10/2021/10/10/5/ESPAÑA
+Adrian/1998/06/06/2021/11/11/2021/12/12/4/ESPAÑA

@@ -1,0 +1,10 @@
+Lista de Usuarios
+Nombre: Alba Fecha de Nacimiento: 04/02/94 Edad: 29 Antiguedad: 0 Segmento del usuario: Affiliate Status: Activo
+Nombre: Daniel Fecha de Nacimiento: 05/05/03 Edad: 19 Antiguedad: 1 Segmento del usuario: Estandar User Status: Activo
+Nombre: Adrian Fecha de Nacimiento: 06/06/98 Edad: 24 Antiguedad: 1 Segmento del usuario: Estandar User Status: Activo
+Nombre: Carlos Fecha de Nacimiento: 05/05/99 Edad: 23 Antiguedad: 2 Segmento del usuario: Estandar User Status: Activo
+Nombre: Alejandro Fecha de Nacimiento: 06/04/97 Edad: 25 Antiguedad: 1 Segmento del usuario: Estandar User Status: Activo
+Nombre: Gustavo Fecha de Nacimiento: 04/06/91 Edad: 31 Antiguedad: 0 Segmento del usuario: Affiliate Status: Activo
+Nombre: Alvaro Fecha de Nacimiento: 05/03/96 Edad: 27 Antiguedad: 2 Segmento del usuario: Estandar User Status: Activo
+Nombre: Ivan Fecha de Nacimiento: 06/06/98 Edad: 24 Antiguedad: 1 Segmento del usuario: Estandar User Status: Activo
+Nombre: Gustavo Fecha de Nacimiento: 04/06/91 Edad: 31 Antiguedad: 0 Segmento del usuario: Affiliate Status: Activo
