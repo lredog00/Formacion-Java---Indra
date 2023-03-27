@@ -1,0 +1,2 @@
+Nnombre:Luis, Apellido=Redondo, Edad=24]
+Nnombre:Ruben, Apellido=Gutierrez, Edad=30]
