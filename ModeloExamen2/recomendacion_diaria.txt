@@ -1,0 +1,5 @@
+La temperatura de Madrid es de 15.0 ºC 
+En Madrid solo se puede realizar la producción
+
+La temperatura de Berlin es de 15.0 ºC
+Se realizan tareas de mantenimiento
