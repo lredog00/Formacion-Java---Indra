@@ -23,7 +23,7 @@ public class Principal {
 			
 			
 			URL urlTempMadrid = new URL("https://api.open-meteo.com/v1/forecast?latitude=40.42&longitude=-3.70&current_weather=true&forecast_days=1");
-			URL urlTempBerlin = new URL("https://api.open-meteo.com/v1/forecast?latitude=40.42&longitude=-3.70&current_weather=true&forecast_days=1");
+			URL urlTempBerlin = new URL("https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true&forecast_days=1");
 		
 			HttpURLConnection con = (HttpURLConnection) urlTempMadrid.openConnection();
 			HttpURLConnection con2 = (HttpURLConnection) urlTempBerlin.openConnection();
@@ -51,14 +51,14 @@ public class Principal {
 				
 				double temperature = Double.parseDouble(stringTemperature);
 				
-				System.out.println("La temperatura de Madrid es de "+temperature+" ºC");
-				bw.write("La temperatura de Madrid es de "+temperature+" ºC \n");
+				System.out.println("La temperatura de Madrid es de "+temperature+" ÂºC");
+				bw.write("La temperatura de Madrid es de "+temperature+" ÂºC \n");
 				if(temperature<15.0) {
-					System.out.println("Se realiza la producción y el sembrado");
-					bw.write("Se realiza la producción y el sembrado");
+					System.out.println("Se realiza la producciÃ³n y el sembrado");
+					bw.write("Se realiza la producciÃ³n y el sembrado");
 				}else {
-					System.out.println("En Madrid solo se puede realizar la producción");
-					bw.write("En Madrid solo se puede realizar la producción");
+					System.out.println("En Madrid solo se puede realizar la producciÃ³n");
+					bw.write("En Madrid solo se puede realizar la producciÃ³n");
 				}
 				bw.write("\n\n");
 			}
@@ -85,14 +85,14 @@ public class Principal {
 				
 				double temperature = Double.parseDouble(stringTemperature);
 				
-				System.out.println("La temperatura de Berlin es de "+temperature+" ºC\n");
-				bw.write("La temperatura de Berlin es de "+temperature+" ºC\n");
+				System.out.println("La temperatura de Berlin es de "+temperature+" ÂºC\n");
+				bw.write("La temperatura de Berlin es de "+temperature+" ÂºC\n");
 				if(temperature<20.0) {
 					System.out.println("Se realizan tareas de mantenimiento");
 					bw.write("Se realizan tareas de mantenimiento");
 				}else {
-					System.out.println("En Berlin solo se realizará la producción");
-					bw.write("En Berlin solo se realizará la producción");
+					System.out.println("En Berlin solo se realizarÃ¡ la producciÃ³n");
+					bw.write("En Berlin solo se realizarÃ¡ la producciÃ³n");
 				}
 			}
 			bw.close();
